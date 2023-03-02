@@ -1,8 +1,14 @@
-*{
-    background: #f3e7d0;
-    box-sizing: border-box;
-}
 
+body
+{
+    background-color: black;
+    
+}
+.contaner
+{
+    display: flex;
+    justify-content: center;
+}
 h1{
     text-align: center;
     width: 100%;
@@ -10,14 +16,13 @@ h1{
     color: #e79508;
 }
 
-div{
+.login{
     /* vertical-align: middle; */
     /* align-self: auto; */
     float: right;
     /* overflow: auto; */
     /* position: relative; */
     /* background-color: rgb(244, 198, 58); */
-    background-color: rgb(43, 40, 40);
     text-align: center;
     width: 100%;
     font-size: larger;
@@ -36,7 +41,7 @@ div{
 }
 
 input[type="button"]{
-    background-color: rgb(135, 135, 243);
+    background-color: rgba(135, 135, 243, 0);
     border: none;
     border-radius: 10px;
     height: 100%;
@@ -46,6 +51,8 @@ input[type="button"]{
 input[type="text"],
 input[type="password"],
 textarea{
-    border-radius: 5px;
+    background-color: #e7950800;
+    border: none;
+    border-bottom:2px solid white;
 }
 
