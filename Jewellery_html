@@ -2,22 +2,10 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8" />
-    <title>Jewelry Brand | Jewelry</title>
+    <title>Jewellery Brand | Jewellery</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/jewelry.css" />
 
-    <!-- <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/jquery.main.js"></script> -->
-
-    <!--[if lte IE 9]>
-        <script src="js/jquery.placeholder.js"></script>
-        <link rel="stylesheet" href="css/pie.css" />
-    <![endif]-->
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="css/main.ie8.css" />
-        <link rel="stylesheet" href="css/pie.css" />
-    <![endif]-->
 </head>
 <body>
     <!-- site -->
@@ -35,14 +23,14 @@
                         <li><a href="#">Home</a></li>
                     <li><a href="#">Account</a>
                         <ul class="context_menu">
-                            <li><a href="Login.html" target="_blank">Login</a></li>
+                            <li><a href="Login.html" target="_blank">Log In</a></li>
                             <li><a href="Signup.html">Sign-Up</a></li>
                         </ul>
                     </li>
-                    <li><a class="active" href="#">Jewelry</a></li>
-                    <li><a href="#">Style</a></li>
-                    <li><a href="#">Collections</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a class="active" href="#">Jewellery</a></li>
+                    <!-- <li><a href="#">Style</a></li> -->
+                    <!-- <li><a href="#">Collections</a></li> -->
+                    <li><a href="Contacts.html">Contacts</a></li>
                     <!-- <li><a href="#">Account</a></li> -->
                 </ul>
             </nav>
@@ -59,43 +47,54 @@
 
                 <!-- our_jewelry -->
                 <div class="our_jewelry">
-                    <h1>our jewelry</h1>
+                    <h1>our designs </h1>
 
 
-                        <section>
+                        <section>   
                             <!-- jewelry -->
                             <div class="jewelry">
-                                <h3>GOLD JEWELRY</h3>
-                                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                <a href="#" class="view_collection">view collection</a>
+                                <br>
+                                <h3>GOLD JEWELLERY</h3>
+                                <!-- <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p> -->
+                                <br><br>
+                                <a href="GoldCollection.html" class="view_collection" target="_blank">view collection</a>
                             </div>
                             <!-- jewelry -->
 
+                            <ul class="gold">
+                                
+                                <li><img src="pic/gold/pic1.jpg" width="214" height="166" alt="jewelry"></li>
+                                <li><img src="pic/gold/pic2.jpg" width="214" height="166" alt="jewelry"></li>
+                                <li><img src="pic/gold/pic3.jpg" width="214" height="166" alt="jewelry"></li>
+
+                            </ul>
+                            <!-- <style>
+                                .gold{
+
+                                }
+                            </style> -->
+                        </section>
+
+                        <section>
+                            <div class="jewelry"><br>
+                                <h3>SILVER JEWELLERY</h3>
+                                <!-- <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p> -->
+                                <br><br>
+                                <a href="SilverCollection.html" class="view_collection" target="_blank">view collection</a>
+                            </div>
                             <ul>
-                                <li><img src="pic/pic1.jpg" width="214" height="166" alt="jewelry"></li>
-                                <li><img src="pic/pic2.jpg" width="214" height="166" alt="jewelry"></li>
-                                <li><img src="pic/pic3.jpg" width="214" height="166" alt="jewelry"></li>
+                                <li><img src="pic/silver/pic1.webp" width="214" height="166" alt="jewelry"></li>
+                                <li><img src="pic/silver/pic2.webp" width="214" height="166" alt="jewelry"></li>
+                                <li><img src="pic/silver/pic3.webp" width="214" height="166" alt="jewelry"></li>
                             </ul>
                         </section>
 
                         <section>
-                            <div class="jewelry">
-                                <h3>SILVER JEWELRY</h3>
-                                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                <a href="#" class="view_collection">view collection</a>
-                            </div>
-                            <ul>
-                                <li><img src="pic/pic4.jpg" width="214" height="166" alt="jewelry"></li>
-                                <li><img src="pic/pic5.jpg" width="214" height="166" alt="jewelry"></li>
-                                <li><img src="pic/pic6.jpg" width="214" height="166" alt="jewelry"></li>
-                            </ul>
-                        </section>
-
-                        <section>
-                            <div class="jewelry">
-                                <h3>STEEL JEWELRY</h3>
-                                <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                                <a href="#" class="view_collection">view collection</a>
+                            <div class="jewelry"><br>
+                                <h3>STEEL JEWELLERY</h3>
+                                <!-- <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p> -->
+                                <br><br>
+                                <a href="SteelCollection.html" class="view_collection">view collection</a>
                             </div>
                             <ul>
                                 <li><img src="pic/pic7.jpg" width="214" height="166" alt="jewelry"></li>
@@ -105,10 +104,11 @@
                         </section>
 
                     <section>
-                        <div class="jewelry">
-                            <h3>FASHION JEWELRY</h3>
-                            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-                            <a href="#" class="view_collection">view collection</a>
+                        <div class="jewelry"><br>
+                            <h3>FASHION JEWELLERY</h3>
+                            <!-- <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p> -->
+                            <br><br>
+                            <a href="FashionCollection.html" class="view_collection">view collection</a>
                         </div>
                         <ul>
                             <li><img src="pic/pic10.jpg" width="214" height="166" alt="jewelry"></li>
@@ -135,17 +135,17 @@
 
             <!-- footer__menu -->
             <ul class="footer__menu">
-                <li><a href="#">Home</a></li>
+                <li><a href="Jewellery_html.html">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a class="active" href="#">Jewelry</a></li>
+                <!-- <li><a class="active" href="#">Jewelry</a></li> -->
                 <li><a href="#">Style</a></li>
-                <li><a href="#">Collections</a></li>
-                <li><a href="#">Contacts</a></li>
+                <li><a href="Jewellery_html.html">Collections</a></li>
+                <li><a href="Contacts.html">Contacts</a></li>
             </ul>
             <!-- /footer__menu -->
 
             <!-- copyright -->
-            <p class="copyright">Jewelry Brand ©2023<a href="#">Privacy Policy</a></p>
+            <p class="copyright">Jewellery Brand ©2023<a href="#">Privacy Policy</a></p>
             <!-- /copyright -->
 
         </div>
