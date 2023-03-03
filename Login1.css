@@ -1,8 +1,12 @@
+/* *{
+    background: #f3e7d0;
+    box-sizing: border-box;
+} */
 
 body
 {
     background-color: black;
-    
+
 }
 .contaner
 {
@@ -16,6 +20,7 @@ h1{
     color: #e79508;
 }
 
+
 .login{
     /* vertical-align: middle; */
     /* align-self: auto; */
@@ -23,6 +28,7 @@ h1{
     /* overflow: auto; */
     /* position: relative; */
     /* background-color: rgb(244, 198, 58); */
+    /* background-color: rgb(43, 40, 40); */
     text-align: center;
     width: 100%;
     font-size: larger;
@@ -32,7 +38,6 @@ h1{
     width: 500px;
     /* border: 15px solid rgb(244, 198, 58); */
     padding: 50px;
-
     margin: 20px;
     border-width: 10px;
     border-radius: 15px;
@@ -41,18 +46,18 @@ h1{
 }
 
 input[type="button"]{
+    /* background-color: rgb(135, 135, 243); */
     background-color: rgba(135, 135, 243, 0);
     border: none;
     border-radius: 10px;
     height: 100%;
     font-size: large;
 }
-
 input[type="text"],
 input[type="password"],
 textarea{
+    /* border-radius: 5px; */
     background-color: #e7950800;
     border: none;
     border-bottom:2px solid white;
 }
-
